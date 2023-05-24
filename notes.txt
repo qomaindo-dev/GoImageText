@@ -1,0 +1,15 @@
+Error (Ubuntu 22) :
+tessbridge.cpp:5:10: fatal error: leptonica/allheaders.h: No such file or directory
+Solusi :
+sudo apt install libtesseract-dev
+-------------------------------------------------------------------------------------
+
+Install first :
+Ubuntu:
+https://tesseract-ocr.github.io/tessdoc/Downloads.html
+
+Mac OS:
+https://formulae.brew.sh/formula/tesseract
+
+Plugin:
+https://github.com/otiai10/gosseract
